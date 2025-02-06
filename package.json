@@ -9,6 +9,9 @@
     "lint": "next lint",
     "slicemachine": "start-slicemachine"
   },
+  "engines": {
+    "bun": ">=1.0.0"
+  },
   "dependencies": {
     "@prismicio/client": "^7.16.0",
     "@prismicio/helpers": "^2.3.9",
