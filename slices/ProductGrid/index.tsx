@@ -8,7 +8,7 @@ import {
 import { Bounded } from '@/components/Bounded';
 import { Heading } from '@/components/Heading';
 import { SkateboardProduct } from './SkateboardProduct';
-import { SlideIn } from '@/components/SlineIn';
+import { SlideIn } from '@/components/SlideIn';
 import { JSX } from 'react';
 
 /**
