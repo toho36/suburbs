@@ -1,5 +1,6 @@
 'use client';
 
+import { Environment } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import { Suspense } from 'react';
 
@@ -23,7 +24,7 @@ export function InteractiveSkateboard() {
 function Scene() {
   return (
     <group>
-      <pointLight position={[1, 1, 1]} />
+      <Environment preset="sunset" background />
       <mesh>
         <meshStandardMaterial />
         <boxGeometry />
