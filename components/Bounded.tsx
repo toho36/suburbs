@@ -8,12 +8,7 @@ type BoundedProps = {
   children: ReactNode;
 };
 
-export function Bounded({
-  as: Comp = 'section',
-  className,
-  children,
-  ...restProps
-}: BoundedProps) {
+export function Bounded({ className, children, ...restProps }: BoundedProps) {
   return (
     <div
       className={clsx(
